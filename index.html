@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreco — Desarrollador Frontend</title>
+<meta name="description" content="Portafolio de Dreco, estudiante de Ingeniería de Sistemas en Cochabamba, Bolivia. Desarrollo frontend y aplicaciones web.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<header class="nav">
+  <a href="#inicio" class="nav__logo">AC<span class="dot">.</span></a>
+
+  <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </label>
+
+  <nav class="nav__links">
+    <a href="#inicio"><em>01</em>Inicio</a>
+    <a href="#proyectos"><em>02</em>Proyectos</a>
+    <a href="#habilidades"><em>03</em>Habilidades</a>
+    <a href="#sobre-mi"><em>04</em>Sobre mí</a>
+    <a href="sites.html"><em>05</em>Mis páginas</a>
+    <a href="#contacto"><em>06</em>Contacto</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="inicio" class="hero">
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <h1 class="hero__title">
+      <span class="fill">DESARROLLADOR</span>
+      <span class="outline">FRONTEND</span>
+    </h1>
+
+    <p class="hero__byline">Dreco <span class="sep">/</span> Estudiante de Ingeniería de Sistemas — Cochabamba, Bolivia</p>
+  </div>
+
+  <!-- Signature element: terminal panel genérico -->
+  <div class="terminal" role="img" aria-label="Panel de terminal de ejemplo">
+    <div class="terminal__bar">
+      <span></span><span></span><span></span>
+      <p>terminal — demo</p>
+    </div>
+    <div class="terminal__body">
+      <p><span class="prompt">$</span> npm run build</p>
+      <p class="out">&gt; build: listo ✓</p>
+      <p class="out">&gt; tamaño: 120 KB</p>
+      <p class="out">&gt; estado: optimizado ✓</p>
+      <p><span class="prompt">$</span> <span class="cursor">&nbsp;</span></p>
+    </div>
+  </div>
+
+  <p class="hero__eyebrow">// INTERFAZ, EXPERIENCIA Y RENDIMIENTO.</p>
+
+  <!-- ahora apunta a sites.html -->
+  <a href="sites.html" class="hero__explore">Ver mis páginas <span>↓</span></a>
+</section>
+
+<!-- ============ PROYECTOS ============ -->
+<section id="proyectos" class="section">
+  <h2 class="section__title"><em>02</em>Proyectos</h2>
+
+  <div class="projects">
+
+    <!-- Tarjeta de proyecto orientada a clientes: solo demo -->
+    <article class="project">
+      <div class="project__head">
+        <h3>Proyectos Demo</h3>
+      </div>
+      <p class="project__desc">
+        Página de ejemplo creada para mostrar diseño responsive y componentes interactivos.
+      </p>
+      <ul class="project__tags">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <div class="project__links">
+        <!-- Enlace a sites.html donde se listan todas las demos -->
+        <a href="sites.html">Ver demo →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ HABILIDADES ============ -->
+<section id="habilidades" class="section section--alt">
+  <h2 class="section__title"><em>03</em>Habilidades</h2>
+
+  <div class="skills">
+    <div class="skills__group">
+      <h3>Frontend</h3>
+      <p>HTML · CSS · JavaScript</p>
+    </div>
+    <div class="skills__group">
+      <h3>Bases de datos</h3>
+      <p>SQLite · MySQL</p>
+    </div>
+    <div class="skills__group">
+      <h3>IA &amp; APIs</h3>
+      <p>Integración con APIs · Consumo REST</p>
+    </div>
+    <div class="skills__group">
+      <h3>Herramientas</h3>
+      <p>Git · VS Code</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE MÍ ============ -->
+<section id="sobre-mi" class="section">
+  <h2 class="section__title"><em>04</em>Sobre mí</h2>
+  <p class="about__text">
+    Estudiante de Ingeniería de Sistemas en Cochabamba, Bolivia, enfocado en
+    construir interfaces limpias y accesibles. Me interesa el desarrollo frontend,
+    la experiencia de usuario y la optimización para dispositivos móviles.
+  </p>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<footer id="contacto" class="footer">
+  <h2 class="section__title"><em>06</em>Contacto</h2>
+  <p class="footer__lead">¿Un un local con un proyecto en mente? Escríbeme.</p>
+
+  <div class="footer__links">
+    <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>
+    <!-- GitHub eliminado para enfoque cliente -->
+    <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+
+  <p class="footer__copy">© 2026 Dreco. Hecho con HTML &amp; CSS.</p>
+</footer>
+
+
+
+
+</body>
+</html>
